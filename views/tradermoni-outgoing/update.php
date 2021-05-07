@@ -1,0 +1,30 @@
+<?php
+
+use yii\helpers\Html;
+
+/* @var $this yii\web\View */
+/* @var $model app\models\TradermoniOutgoing */
+
+$this->title = 'Update Tradermoni Outgoing: ' . $model->id;
+$this->params['breadcrumbs'][] = ['label' => 'Tradermoni Outgoings', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
+$this->params['breadcrumbs'][] = 'Update';
+?>
+<div class="tradermoni-outgoing-update">
+
+<div class="row">
+    <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="panel panel-success">
+                <div class="panel-heading"><h3><?= Html::encode($this->title) ?></h3></div>
+                <div class="panel-body">
+
+                    <?= $this->render('_form', [
+                        'model' => $model,
+                    ]) ?>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

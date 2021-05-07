@@ -1,0 +1,16 @@
+/* TEMPLATE STYLES */
+
+main {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.extra-margins {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+table tr:nth-child(even) {
+  background-color: rgba(113, 165, 242,0.75);
+}
+tr:hover {background-color: #d4e4fc;}

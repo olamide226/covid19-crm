@@ -1,0 +1,9 @@
+project name: Geep 2.0
+requirements: >= 2.0 yiiframework
+
+forms: Boi,enquiry, casetwo(dta/Aggregator),conversations
+
+extension used for login system
+https://github.com/amnah/yii2-user
+
+http://c3js.org/examples.html
