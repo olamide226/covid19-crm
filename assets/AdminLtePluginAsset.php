@@ -14,14 +14,13 @@ use yii\web\AssetBundle;
  *
  *
  */
- use yii\web\AssetBundle;
  class AdminLtePluginAsset extends AssetBundle
  {
      public $sourcePath = '@vendor/almasaeed2010/adminlte/plugins';
        
      public $js = [
          'datatables/dataTables.bootstrap.min.js',
-         'js/main.js';
+         'js/main.js'
 
 
          // more plugin Js here

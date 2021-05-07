@@ -53,9 +53,9 @@ $config = [
             'useFileTransport' => false,
             'transport' => [
                 'class' => 'Swift_SmtpTransport',
-                'host' => 'mail.ebis.com.ng',
-                'username' => 'no-reply@ebis.com.ng',
-                'password' => 'EntBizInfo123#',
+                'host' => 'mail.yourhost.com',
+                'username' => 'no-reply@your-host.com',
+                'password' => 'your-password-here',
                 'port' => '465',
                 'encryption' => 'ssl',
             ],

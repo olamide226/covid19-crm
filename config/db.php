@@ -2,9 +2,9 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=hgsf',
+    'dsn' => 'mysql:host=127.0.0.1;dbname=hgsf_crm',
     'username' => 'root',
-    'password' => 'Ns10hg$f@((3$$',
+    'password' => '',
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)
